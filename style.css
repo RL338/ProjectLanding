@@ -1,38 +1,44 @@
 body{
     font-family: 'Times New Roman', Times, serif;
-    margin: 0;    
+    margin: 0;
+    font-size: 20px;
 }
 
-.navbar{
-    overflow: hidden;
-    background-color: #333;
-    position: fixed;
-    top: 0;
+h1{
+    font-size: 50px;
+    font-weight: 600;
+    color: whitesmoke;
+}
+h2{
+    font-size: 30px;
+    font-weight: 200;
+    margin: 0;
+    color: whitesmoke;
+}
+
+button{
+    margin-top: 50px;
+    padding: 16px;
+    font-size: medium;
+
+}
+
+header{
+    background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(https://images.pexels.com/photos/949131/pexels-photo-949131.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
     width: 100%;
-}
-
-.navbar a{
-    text-decoration: none;
-    color:#4dbd65a1;
-    float: left;
-    text-align: center;
-    padding: 14px 16px;
-}
-
-.navbar a:hover{
-    background: #ddd;
-    color: black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+        
 }
 
 .main{
-    margin-top: 30px;
-}
+    font-size: 30px;
 
-
-.Pics{
-    height: 500px;
-    width: 500px;
-    gap: 30px;
-    padding: 50px;
-    display: flex;
 }
