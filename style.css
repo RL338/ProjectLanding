@@ -38,7 +38,36 @@ header{
         
 }
 
-.main{
+main{
     font-size: 30px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    background-color: rgba(32, 22, 22, 0.582);
+    padding: 100px;
+}
+
+
+h3{
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 100px;
 
 }
+
+.Blocks{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+}
+
+p{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 25px;
+}
+
