@@ -4,6 +4,39 @@ body{
     font-size: 20px;
 }
 
+.menu{
+    background-color: rgb(194, 183, 183);
+    overflow: hidden;
+   
+}
+
+.menu a{
+    float: left;
+    color: #3b1515;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.menu a:hover{
+    background-color: rgb(228, 212, 212);
+    color: black;
+}
+
+.menu a.active{
+    background-color: #04AA6D;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
 h1{
     font-size: 50px;
     font-weight: 600;
@@ -47,6 +80,8 @@ main{
     flex-flow: column;
     background-color: rgba(32, 22, 22, 0.582);
     padding: 100px;
+    height: 500px;
+    
 }
 
 
