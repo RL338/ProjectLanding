@@ -2,6 +2,9 @@ body{
     font-family: 'Times New Roman', Times, serif;
     margin: 0;
     font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 1;
 }
 
 .menu{
@@ -106,3 +109,10 @@ p{
     font-size: 25px;
 }
 
+footer{
+    background-color: rgb(223, 215, 204);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
